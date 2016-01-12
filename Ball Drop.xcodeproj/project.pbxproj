@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923FA9591C44A4BA00C7B7D1 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923FA9581C44A4BA00C7B7D1 /* MainScreenViewController.swift */; };
+		92DB7A241C36218100116CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DB7A231C36218100116CBA /* AppDelegate.swift */; };
+		92DB7A261C36218100116CBA /* BallDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DB7A251C36218100116CBA /* BallDropViewController.swift */; };
+		92DB7A291C36218100116CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DB7A271C36218100116CBA /* Main.storyboard */; };
+		92DB7A2B1C36218100116CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DB7A2A1C36218100116CBA /* Assets.xcassets */; };
+		92DB7A2E1C36218100116CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DB7A2C1C36218100116CBA /* LaunchScreen.storyboard */; };
+		92DB7A391C36218100116CBA /* Ball_DropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DB7A381C36218100116CBA /* Ball_DropTests.swift */; };
+		92DB7A441C36218100116CBA /* Ball_DropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DB7A431C36218100116CBA /* Ball_DropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DB7A351C36218100116CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DB7A181C36218100116CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DB7A1F1C36218100116CBA;
+			remoteInfo = "Ball Drop";
+		};
+		92DB7A401C36218100116CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DB7A181C36218100116CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DB7A1F1C36218100116CBA;
+			remoteInfo = "Ball Drop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923FA9581C44A4BA00C7B7D1 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		92DB7A201C36218100116CBA /* Ball Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ball Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DB7A231C36218100116CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DB7A251C36218100116CBA /* BallDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallDropViewController.swift; sourceTree = "<group>"; };
+		92DB7A281C36218100116CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DB7A2A1C36218100116CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DB7A2D1C36218100116CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DB7A2F1C36218100116CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DB7A341C36218100116CBA /* Ball DropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ball DropTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DB7A381C36218100116CBA /* Ball_DropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_DropTests.swift; sourceTree = "<group>"; };
+		92DB7A3A1C36218100116CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DB7A3F1C36218100116CBA /* Ball DropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ball DropUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DB7A431C36218100116CBA /* Ball_DropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_DropUITests.swift; sourceTree = "<group>"; };
+		92DB7A451C36218100116CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DB7A1D1C36218100116CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB7A311C36218100116CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB7A3C1C36218100116CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DB7A171C36218100116CBA = {
+			isa = PBXGroup;
+			children = (
+				92DB7A221C36218100116CBA /* Ball Drop */,
+				92DB7A371C36218100116CBA /* Ball DropTests */,
+				92DB7A421C36218100116CBA /* Ball DropUITests */,
+				92DB7A211C36218100116CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DB7A211C36218100116CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DB7A201C36218100116CBA /* Ball Drop.app */,
+				92DB7A341C36218100116CBA /* Ball DropTests.xctest */,
+				92DB7A3F1C36218100116CBA /* Ball DropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DB7A221C36218100116CBA /* Ball Drop */ = {
+			isa = PBXGroup;
+			children = (
+				92DB7A231C36218100116CBA /* AppDelegate.swift */,
+				923FA9581C44A4BA00C7B7D1 /* MainScreenViewController.swift */,
+				92DB7A251C36218100116CBA /* BallDropViewController.swift */,
+				92DB7A271C36218100116CBA /* Main.storyboard */,
+				92DB7A2A1C36218100116CBA /* Assets.xcassets */,
+				92DB7A2C1C36218100116CBA /* LaunchScreen.storyboard */,
+				92DB7A2F1C36218100116CBA /* Info.plist */,
+			);
+			path = "Ball Drop";
+			sourceTree = "<group>";
+		};
+		92DB7A371C36218100116CBA /* Ball DropTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DB7A381C36218100116CBA /* Ball_DropTests.swift */,
+				92DB7A3A1C36218100116CBA /* Info.plist */,
+			);
+			path = "Ball DropTests";
+			sourceTree = "<group>";
+		};
+		92DB7A421C36218100116CBA /* Ball DropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92DB7A431C36218100116CBA /* Ball_DropUITests.swift */,
+				92DB7A451C36218100116CBA /* Info.plist */,
+			);
+			path = "Ball DropUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DB7A1F1C36218100116CBA /* Ball Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DB7A481C36218100116CBA /* Build configuration list for PBXNativeTarget "Ball Drop" */;
+			buildPhases = (
+				92DB7A1C1C36218100116CBA /* Sources */,
+				92DB7A1D1C36218100116CBA /* Frameworks */,
+				92DB7A1E1C36218100116CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ball Drop";
+			productName = "Ball Drop";
+			productReference = 92DB7A201C36218100116CBA /* Ball Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DB7A331C36218100116CBA /* Ball DropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DB7A4B1C36218100116CBA /* Build configuration list for PBXNativeTarget "Ball DropTests" */;
+			buildPhases = (
+				92DB7A301C36218100116CBA /* Sources */,
+				92DB7A311C36218100116CBA /* Frameworks */,
+				92DB7A321C36218100116CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DB7A361C36218100116CBA /* PBXTargetDependency */,
+			);
+			name = "Ball DropTests";
+			productName = "Ball DropTests";
+			productReference = 92DB7A341C36218100116CBA /* Ball DropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DB7A3E1C36218100116CBA /* Ball DropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DB7A4E1C36218100116CBA /* Build configuration list for PBXNativeTarget "Ball DropUITests" */;
+			buildPhases = (
+				92DB7A3B1C36218100116CBA /* Sources */,
+				92DB7A3C1C36218100116CBA /* Frameworks */,
+				92DB7A3D1C36218100116CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DB7A411C36218100116CBA /* PBXTargetDependency */,
+			);
+			name = "Ball DropUITests";
+			productName = "Ball DropUITests";
+			productReference = 92DB7A3F1C36218100116CBA /* Ball DropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DB7A181C36218100116CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xinyu Zhao";
+				TargetAttributes = {
+					92DB7A1F1C36218100116CBA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PN7H2G635E;
+					};
+					92DB7A331C36218100116CBA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PN7H2G635E;
+						TestTargetID = 92DB7A1F1C36218100116CBA;
+					};
+					92DB7A3E1C36218100116CBA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PN7H2G635E;
+						TestTargetID = 92DB7A1F1C36218100116CBA;
+					};
+				};
+			};
+			buildConfigurationList = 92DB7A1B1C36218100116CBA /* Build configuration list for PBXProject "Ball Drop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DB7A171C36218100116CBA;
+			productRefGroup = 92DB7A211C36218100116CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DB7A1F1C36218100116CBA /* Ball Drop */,
+				92DB7A331C36218100116CBA /* Ball DropTests */,
+				92DB7A3E1C36218100116CBA /* Ball DropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DB7A1E1C36218100116CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DB7A2E1C36218100116CBA /* LaunchScreen.storyboard in Resources */,
+				92DB7A2B1C36218100116CBA /* Assets.xcassets in Resources */,
+				92DB7A291C36218100116CBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB7A321C36218100116CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB7A3D1C36218100116CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DB7A1C1C36218100116CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DB7A261C36218100116CBA /* BallDropViewController.swift in Sources */,
+				92DB7A241C36218100116CBA /* AppDelegate.swift in Sources */,
+				923FA9591C44A4BA00C7B7D1 /* MainScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB7A301C36218100116CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DB7A391C36218100116CBA /* Ball_DropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DB7A3B1C36218100116CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DB7A441C36218100116CBA /* Ball_DropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DB7A361C36218100116CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DB7A1F1C36218100116CBA /* Ball Drop */;
+			targetProxy = 92DB7A351C36218100116CBA /* PBXContainerItemProxy */;
+		};
+		92DB7A411C36218100116CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DB7A1F1C36218100116CBA /* Ball Drop */;
+			targetProxy = 92DB7A401C36218100116CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DB7A271C36218100116CBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DB7A281C36218100116CBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DB7A2C1C36218100116CBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DB7A2D1C36218100116CBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DB7A461C36218100116CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DB7A471C36218100116CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DB7A491C36218100116CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ball Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Ball-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92DB7A4A1C36218100116CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ball Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Ball-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92DB7A4C1C36218100116CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ball DropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Ball-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ball Drop.app/Ball Drop";
+			};
+			name = Debug;
+		};
+		92DB7A4D1C36218100116CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ball DropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Ball-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ball Drop.app/Ball Drop";
+			};
+			name = Release;
+		};
+		92DB7A4F1C36218100116CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ball DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Ball-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ball Drop";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92DB7A501C36218100116CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ball DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Ball-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ball Drop";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DB7A1B1C36218100116CBA /* Build configuration list for PBXProject "Ball Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DB7A461C36218100116CBA /* Debug */,
+				92DB7A471C36218100116CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DB7A481C36218100116CBA /* Build configuration list for PBXNativeTarget "Ball Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DB7A491C36218100116CBA /* Debug */,
+				92DB7A4A1C36218100116CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DB7A4B1C36218100116CBA /* Build configuration list for PBXNativeTarget "Ball DropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DB7A4C1C36218100116CBA /* Debug */,
+				92DB7A4D1C36218100116CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DB7A4E1C36218100116CBA /* Build configuration list for PBXNativeTarget "Ball DropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DB7A4F1C36218100116CBA /* Debug */,
+				92DB7A501C36218100116CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DB7A181C36218100116CBA /* Project object */;
+}
